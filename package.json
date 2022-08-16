@@ -1,0 +1,23 @@
+{
+  "name": "dropbox-image",
+  "version": "1.0.0",
+  "description": "The feature is created to speed up the bulk upload for images on dropbox links instead of going through each provided dropbox image links.",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "formidable": "^1.2.1",
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.3",
+    "pg-format": "^1.0.4",
+    "pg-promise": "^10.11.1",
+    "playwright-chromium": "^1.24.2",
+    "sequelize": "^6.21.3",
+    "sequelize-cli": "^6.4.1",
+    "xlsx": "^0.18.5"
+  }
+}
