@@ -3,6 +3,11 @@
 ## Why is this feature created?
 The feature is created to speed up the bulk upload for images on dropbox links instead of going through each provided dropbox image links.
 
+
+## What is database is being used here?
+I used PostgreSQL as the database to store the information. This is being hosted on Heroku.
+
+
 ## How does it work? 
 Step 1: Click on the "Download Format Sheet". It would download the excel file for you
 ![alt text](https://raw.githubusercontent.com/HuiHongOP/image-scraper/main/client/images/DownloadSheet.png)
